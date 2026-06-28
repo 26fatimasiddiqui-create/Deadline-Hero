@@ -1,0 +1,9 @@
+{
+  "name": "backend-ai-addon-dependencies",
+  "note": "Merge these into your existing backend/package.json dependencies. Then run: npm install",
+  "dependencies": {
+    "openai": "^4.52.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

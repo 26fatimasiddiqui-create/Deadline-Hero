@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #f8fafc;
+  background: #020617;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(2, 6, 23, 0.72), rgba(2, 6, 23, 0.82)),
+    url("/discipline-human.jpg") center / cover no-repeat;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+}
